@@ -85,15 +85,32 @@ li span {
     top: 60px;
 }
 
+@media only screen and (max-width: 480px) {
+    .container{
+        min-height: 304px;
+        min-width: 350px; 
+        justify-content: none;
+        padding: 20px 10px;
+        margin: 0;
+    }
+   
+    .form{
+        width: 230px
+    }
+}
+
+
 @media screen and (max-width: 375px){
   
     .container{
         min-height: 304px;
-        min-width: 299px; 
+        min-width: 102px; 
         justify-content: none;
+        padding: 30px 10px;
+        margin: 0;
     }
    
     .form{
-        width: 250px
+        width: 150px
     }
 }
