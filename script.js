@@ -58,7 +58,7 @@ function setUpTime(){
         inputContainer.hidden=true;
         
 
-        if(distance>0){
+        if(distance<0){
             //หมดเวลา
             countDownEl.hidden=true;
             completeEl.hidden=false;
